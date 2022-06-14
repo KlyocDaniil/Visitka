@@ -20,7 +20,7 @@
     height: max-content;
     border-radius: 20px;
     width: 1400px;
-    margin: 90px 400px;
+    margin: 70px 400px;
     padding: 5px;
 
 }
@@ -130,7 +130,7 @@
     background-color: navajowhite;
     display: flex;
     flex-direction: column;
-    margin: 90px 150px;
+    margin: 70px 150px;
     border-radius: 20px;
     position: fixed;
 
@@ -208,6 +208,7 @@
     margin-right: auto;
     height: 1000px;
     margin-top: 20px;
+    border-radius: 20px;
 }
 .nameNews{
     margin-top: 10px;
@@ -219,4 +220,30 @@
     border-radius: 20px;
     margin-top: 30px;
     border-top: 1px black solid;
+    margin-right: 200px;
+}
+.logo_img{
+    width: 200px;
+    height: 40px;
+    margin-left: 150px;
+
+}
+.photo_left_news{
+    width: 123px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.add_News{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    height: max-content;
+   justify-content: space-between;
+}
+.button_to_add_news{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
 }
