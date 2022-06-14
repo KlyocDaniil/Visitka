@@ -214,13 +214,17 @@
     margin-top: 10px;
 }
 .news_text{
-    width: 400px;
+    /*width: 400px;*/
+    /*height: 100px;*/
+    /*margin-left: 200px;*/
+    /*border-radius: 20px;*/
+    /*margin-top: 30px;*/
+    /*border-top: 1px black solid;*/
+    /*margin-right: 200px;*/
+    width: 480px;
     height: 100px;
-    margin-left: 200px;
-    border-radius: 20px;
-    margin-top: 30px;
-    border-top: 1px black solid;
-    margin-right: 200px;
+    margin-top: 20px;
+
 }
 .logo_img{
     width: 200px;
@@ -233,17 +237,24 @@
     height: 100px;
     margin-left: 20px;
     margin-top: 20px;
+    margin-right: 20px;
     border-radius: 20px;
 }
 .add_News{
     display: flex;
     flex-direction: row;
-    background-color: red;
-    height: max-content;
-   justify-content: space-between;
+    /*background-color: red;*/
+    padding: 20px;
+    justify-content: space-between;
+
 }
 .button_to_add_news{
-    height: 100px;
-    width: 100px;
-    padding: 20px;
+    height: 50px;
+    width: max-content;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    background-color: gray;
+
 }
