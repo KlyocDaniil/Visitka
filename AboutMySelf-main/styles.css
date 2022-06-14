@@ -4,7 +4,7 @@
 }
 .main{
     /*background: url("https://wallbox.ru/resize/1920x1080/wallpapers/main/201618/5eff3ae7909d44d.jpg") no-repeat;*/
-    background-color: lightblue;
+    background-color: snow;
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
@@ -14,7 +14,7 @@
     overflow: scroll;
 }
 .mainInfo{
-    background: wheat;
+    background: antiquewhite;
     display: flex;
     flex-direction: row;
     height: max-content;
@@ -68,7 +68,7 @@
 .spisokKtoIA{
     margin: 10px 100px;
     border: 10px;
-    background: antiquewhite;
+    background: wheat;
     padding: 10px;
     border-radius: 10px;
     width: 700px;
@@ -80,7 +80,7 @@
 
 }
 .whatCanIDO{
-    background: antiquewhite;
+    background: wheat;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -105,6 +105,16 @@
 
 
 }
+.zagolvki{
+    background-color: wheat;
+    width: 1000px;
+    border-radius: 20px;
+
+}
+.check_activity{
+    margin-left: 20px;
+
+}
 .name_people{
     width: max-content;
     height: max-content;
@@ -117,7 +127,7 @@
 .photoandName{
     width: max-content;
     height: max-content;
-    background: cornflowerblue;
+    background: wheat;
     border-radius: 20px;
     margin: 20px 20px;
     align-items: center;
@@ -127,7 +137,7 @@
 .mess{
     width: 200px;
     height: 700px;
-    background-color: navajowhite;
+    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     margin: 70px 150px;
@@ -257,4 +267,8 @@
     padding: 10px;
     background-color: gray;
 
+}
+.to_vk{
+    text-decoration: none;
+    color: black;
 }
