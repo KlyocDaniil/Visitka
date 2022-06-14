@@ -20,18 +20,20 @@
     height: max-content;
     border-radius: 20px;
     width: 1400px;
-    margin: 10px 400px;
+    margin: 90px 400px;
     padding: 5px;
+
 }
 
 .menu{
-    width: 1700px;
+    width: 1920px;
     height: auto;
-    margin: 20px 100px;
+    margin: auto auto;
     background: cornflowerblue;
     border-radius: 10px;
     padding: 5px;
     font-family: 'Fascinate', cursive;
+    position: fixed;
 }
 .perechislenyavmenu{
    /*background: red;*/
@@ -139,6 +141,7 @@
     flex-direction: column;
     justify-content: space-around;
     margin: 10px auto;
+
 }
 .perechislvmess a{
     display: flex;
@@ -200,7 +203,7 @@
 }
 .news{
     width: 800px;
-    background-color: red;
+    background-color: lemonchiffon;
     margin-left: auto;
     margin-right: auto;
     height: 1000px;
@@ -212,6 +215,8 @@
 .news_text{
     width: 400px;
     height: 100px;
-
-
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border-top: 1px black solid;
 }
