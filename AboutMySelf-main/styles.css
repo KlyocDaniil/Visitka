@@ -4,14 +4,14 @@
 }
 .main{
     /*background: url("https://wallbox.ru/resize/1920x1080/wallpapers/main/201618/5eff3ae7909d44d.jpg") no-repeat;*/
-    background-color: #e1e3e6;
+    background-color: lightblue;
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
     height: 100vh;
     /*display: flex;*/
     /*flex-direction: column;*/
-    overflow: hidden;
+    overflow: scroll;
 }
 .mainInfo{
     background: wheat;
@@ -130,7 +130,7 @@
     flex-direction: column;
     margin: 90px 150px;
     border-radius: 20px;
-    position: absolute;
+    position: fixed;
 
 }
 .perechislvmess{
@@ -197,4 +197,21 @@
 }
 .namePhotoes{
     margin-top: 10px;
+}
+.news{
+    width: 800px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    margin-top: 20px;
+}
+.nameNews{
+    margin-top: 10px;
+}
+.news_text{
+    width: 400px;
+    height: 100px;
+
+
 }
