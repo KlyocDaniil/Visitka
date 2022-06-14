@@ -51,6 +51,7 @@
     flex-flow: column;
     font-family: 'Fascinate', cursive;
     font-weight: 100;
+    height: max-content;
 }
 .menuAndCard{
     display: flex;
@@ -94,6 +95,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: max-content;
+}
+.parametrCountFriendsEtc a{
+    height: max-content;
 }
 .name_people{
     width: max-content;
@@ -169,4 +174,25 @@
 .status
 {
     margin-left: 20px;
+}
+.photos{
+    width: 720px;
+    height: max-content;
+    background-color: red;
+    margin-right: 300px;
+    margin-top: 520px;
+    position: absolute;
+    margin-left: 390px;
+
+
+}
+.sliderphotoes{
+    width: 123px;
+    height: 123px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 2px;
+
 }
