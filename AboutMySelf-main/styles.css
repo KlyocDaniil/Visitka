@@ -3,7 +3,8 @@
     padding: 0;
 }
 .main{
-    background: url("https://wallbox.ru/resize/1920x1080/wallpapers/main/201618/5eff3ae7909d44d.jpg") no-repeat;
+    /*background: url("https://wallbox.ru/resize/1920x1080/wallpapers/main/201618/5eff3ae7909d44d.jpg") no-repeat;*/
+    background-color: #e1e3e6;
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
@@ -58,7 +59,7 @@
 .photo{
     width: 300px;
     height: 300px;
-    border-radius: 1000px;
+
     margin: 10px 20px;
 }
 .spisokKtoIA{
@@ -84,7 +85,7 @@
 .name_people{
     width: max-content;
     height: max-content;
-    margin: auto 20px;
+    margin: 10px 20px;
     font-size: 36px;
     font-style:italic;
     font-family: 'Fascinate', cursive;
@@ -127,4 +128,28 @@
     border-radius:10px ;
     margin-top: 10px;
 
+}
+.OsnovnayaInfa{
+    background-color: gold;
+    height: max-content;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.settingsPage a{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Fascinate', cursive;
+    font-weight: 900;
+    border: #e1e3e6 2px;
+    padding: 2px;
+    outline: 1px solid #000;
+    margin: 10px 10px;
+    font-size: 22px;
+}
+.EditButton{
+    border-radius: 10px;
+    height: 50px;
+    width: 320px;
+    border: none;
+    background-color: #e1e3e6;
 }
