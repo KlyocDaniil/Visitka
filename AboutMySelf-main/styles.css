@@ -74,7 +74,7 @@
     font-size: 19px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-
+    font-family: 'Kdam Thmor Pro', sans-serif;
 
 }
 .whatCanIDO{
@@ -194,4 +194,7 @@
     margin-left: 20px;
     padding: 2px;
 
+}
+.namePhotoes{
+    margin-top: 10px;
 }
