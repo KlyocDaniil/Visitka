@@ -4,7 +4,7 @@
 }
 .main{
     /*background: url("https://wallbox.ru/resize/1920x1080/wallpapers/main/201618/5eff3ae7909d44d.jpg") no-repeat;*/
-    background-color: snow;
+    background-color: #17252a;
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
@@ -14,7 +14,7 @@
     overflow: scroll;
 }
 .mainInfo{
-    background: antiquewhite;
+    background: #3aafa9;
     display: flex;
     flex-direction: row;
     height: max-content;
@@ -29,8 +29,8 @@
     width: 1920px;
     height: auto;
     margin: auto auto;
-    background: cornflowerblue;
-    border-radius: 10px;
+    background: #2b7a78;
+
     padding: 5px;
     font-family: 'Fascinate', cursive;
     position: fixed;
@@ -68,7 +68,7 @@
 .spisokKtoIA{
     margin: 10px 100px;
     border: 10px;
-    background: wheat;
+    background: #def2f1;
     padding: 10px;
     border-radius: 10px;
     width: 700px;
@@ -80,7 +80,7 @@
 
 }
 .whatCanIDO{
-    background: wheat;
+    background: #def2f1;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -106,7 +106,7 @@
 
 }
 .zagolvki{
-    background-color: wheat;
+    background-color: #2b7a78;
     width: 1000px;
     border-radius: 20px;
 
@@ -127,7 +127,7 @@
 .photoandName{
     width: max-content;
     height: max-content;
-    background: wheat;
+    background: #2b7a78;
     border-radius: 20px;
     margin: 20px 20px;
     align-items: center;
@@ -137,7 +137,7 @@
 .mess{
     width: 200px;
     height: 700px;
-    background-color: antiquewhite;
+    background-color: #3aafa9;
     display: flex;
     flex-direction: column;
     margin: 70px 150px;
@@ -158,10 +158,16 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 2px;
-    border: 1px solid gray;
-    border-radius:10px ;
+    /*border: 1px solid gray;*/
+    /*border-radius:10px ;*/
     margin-top: 10px;
-
+text-decoration: none;
+    color:#17252a;
+}
+.perechislvmess a:hover{
+    background-color: #2b7a78;
+    color: #fff;
+    border-radius: 10px;
 }
 .OsnovnayaInfa{
     /*background-color: gold;*/
@@ -213,7 +219,7 @@
 }
 .news{
     width: 800px;
-    background-color: lemonchiffon;
+    background-color: #2b7a78;
     margin-left: auto;
     margin-right: auto;
     height: 1000px;
@@ -270,5 +276,5 @@
 }
 .to_vk{
     text-decoration: none;
-    color: black;
+
 }
