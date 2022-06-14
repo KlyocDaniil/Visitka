@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background: url("https://wallbox.ru/resize/1920x1080/wallpapers/main/201618/5eff3ae7909d44d.jpg") no-repeat;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100vh;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    overflow: hidden;
+}
+.mainInfo{
+    background: wheat;
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    border-radius: 20px;
+    width: 1400px;
+    margin: 10px 400px;
+    padding: 5px;
+}
+
+.menu{
+    width: 1700px;
+    height: auto;
+    margin: 20px 100px;
+    background: cornflowerblue;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Fascinate', cursive;
+}
+.perechislenyavmenu{
+   /*background: red;*/
+    font-size: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.perechislenyavmenu p{
+    margin: 30px auto;
+
+}
+.card
+{
+    display: flex;
+    flex-flow: row;
+    font-family: 'Fascinate', cursive;
+    font-weight: 100;
+}
+.menuAndCard{
+    display: flex;
+    flex-direction: column;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    border-radius: 1000px;
+    margin: 10px 20px;
+}
+.spisokKtoIA{
+    margin: 10px 10px;
+    border: 4px;
+    background: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: max-content;
+    font-size: 19px;
+
+}
+.whatCanIDO{
+    background: antiquewhite;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: max-content;
+    font-size: 19px;
+}
+.name_people{
+    width: max-content;
+    height: max-content;
+    margin: auto 20px;
+    font-size: 36px;
+    font-style:italic;
+    font-family: 'Fascinate', cursive;
+    font-weight: 900;
+}
+.photoandName{
+    width: max-content;
+    height: max-content;
+    background: cornflowerblue;
+    border-radius: 20px;
+    margin: 20px 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.mess{
+    width: 200px;
+    height: 700px;
+    background-color: navajowhite;
+    display: flex;
+    flex-direction: column;
+    margin: 90px 150px;
+    border-radius: 20px;
+    position: absolute;
+
+}
+.perechislvmess{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+.perechislvmess a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2px;
+    border: 1px solid gray;
+    border-radius:10px ;
+    margin-top: 10px;
+
+}
