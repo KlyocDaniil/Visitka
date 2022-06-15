@@ -117,7 +117,15 @@
 
 }
 .check_activity{
-    margin-left: 20px;
+    margin: 25px 20px;
+    font-family: Montserrat sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+.nameAndStatus{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
 }
 .name_people{
