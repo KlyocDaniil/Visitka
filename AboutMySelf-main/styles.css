@@ -254,6 +254,10 @@ text-decoration: none;
     margin-right: 20px;
 
 }
+.allNews{
+    display: flex;
+    flex-direction: column-reverse;
+}
 .name_people_who_posted{
     border: #2b7a78 2px solid;
     padding: 5px;
@@ -262,6 +266,7 @@ text-decoration: none;
     display: flex;
     flex-direction: column;
     width: max-content;
+    margin-bottom: 10px;
 }
 .FormNews{
     display: flex;
@@ -345,7 +350,7 @@ text-decoration: none;
     display: block;
     width: 30px;
     height: 30px;
-    --weight: 3px;
+    --weight: 1px;
     --aa: 1px; /* anti-aliasing */
     --color: black;
     border-radius: 3px;

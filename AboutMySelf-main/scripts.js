@@ -9,8 +9,8 @@ let newsItemElements = []
 
 function Post(description){
     this.description = description
-
 }
+
 const createPost = (post,index) => {
  return`
  <div class = "post_item">
@@ -58,9 +58,9 @@ const deletePost = index =>{
         fillHtmlList()
     // },500)
 }
-function dateTime (){
-    document.write(Date())
-}
+// function dateTime (){
+//     document.write(Date())
+// }
 document.getElementById("checkNewsForm").onsubmit = function (){
     return false
 }
