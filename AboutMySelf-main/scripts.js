@@ -3,7 +3,7 @@ const infoAboutNews = document.getElementById('textNews')
 const newsAll = document.getElementById('AllNews')
 
 let posts;
-!localStorage.news ? posts = [] : posts = JSON.parse(localStorage.getItem('posts'))
+!localStorage.posts ? posts = [] : posts = JSON.parse(localStorage.getItem('posts'))
 
 let newsItemElements = []
 
@@ -14,7 +14,15 @@ function Post(description){
 const createPost = (post,index) => {
  return`
  <div class = "post_item">
- <div class="descriptionPost"> ${post.description} </div>
+ 
+         <div class="descriptionPost"> ${post.description}</div>
+     
+     
+            <div class="buttons">
+            
+                      <!--Удаление задачи-->
+                           <button onclick="deletePost(${index})" class="btn-delete">×</button>
+            </div>  
  </div>
  `}
     const fillHtmlList = () => {
@@ -39,6 +47,14 @@ const createPost = (post,index) => {
         fillHtmlList()
         infoAboutNews.value = ''
     })
+const deletePost = index =>{
+        // newsItemElements[index].classList.add('delition')
+    // setTimeout(()=>{
+        posts.splice(index,1)
+        updateLocalStorage()
+        fillHtmlList()
+    // },500)
+}
 document.getElementById("checkNewsForm").onsubmit = function (){
     return false
 }
