@@ -6,6 +6,8 @@ let posts;
 !localStorage.posts ? posts = [] : posts = JSON.parse(localStorage.getItem('posts'))
 
 let newsItemElements = []
+
+
  function setDatePost() {
      let date = new Date()
      let options = {
@@ -22,9 +24,17 @@ let newsItemElements = []
      return (date.toLocaleDateString("ru", options))
      // alert(date.toLocaleDateString("ru", options))
  }
+ let nameWhoPosted = document.getElementById("nameChel")
+
+function getName(){
+    return (nameWhoPosted.innerHTML)
+}
+
+
 function Post(description){
     this.description = description
     this.time = setDatePost()
+    this.name = getName()
 }
 
 
@@ -33,7 +43,7 @@ const createPost = (post,index) => {
  <div class = "post_item">
      <div class="infoAboutPost">
      <div class="PostName_Delete">
-             <div class="name_people_who_posted"> Даниил Клёц</div>
+             <div class="name_people_who_posted"> ${post.name} </div>
              
              
              <div class="buttons">
@@ -43,6 +53,7 @@ const createPost = (post,index) => {
             </div>
 <!--             <div class ="datePost"  onclick="dateTime()" </div>-->
      </div>
+     
             <div class = "dateTime"> ${post.time}</div>
          <div class="descriptionPost"> ${post.description}  </div>
             

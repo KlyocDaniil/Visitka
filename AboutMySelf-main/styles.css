@@ -261,7 +261,7 @@ text-decoration: none;
 .name_people_who_posted{
     border: #2b7a78 2px solid;
     padding: 5px;
-    border-radius: 2px;
+    border-radius: 10px;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
@@ -357,4 +357,9 @@ text-decoration: none;
     background:
             linear-gradient(45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa))),
             linear-gradient(-45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa)));
+}
+.dateTime{
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: 2px;
 }
