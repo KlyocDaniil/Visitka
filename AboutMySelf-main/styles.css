@@ -139,6 +139,68 @@
     display: flex;
     flex-direction: column;
 }
+.podpiski{
+    width: 300px;
+    height: max-content ;
+    border: #17252a 3px solid;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.Groups{
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    justify-content: space-around;
+    padding: 10px;
+}
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.firstRow a{
+    margin-left: 2px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+}
+.secondRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-right: auto;
+}
+.bali{
+    margin-left: 5px;
+}
+.secondRow a{
+    margin-left: 2px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
+}
+.photofriend{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+}
+.firstFriend img{
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+}
+.firstFriend{
+    display: flex;
+    flex-direction: column;
+
+}
+
 .mess{
     width: 200px;
     height: max-content;

@@ -29,12 +29,18 @@ let newsItemElements = []
 function getName(){
     return (nameWhoPosted.innerHTML)
 }
-
+//
+// let imgAva = document.getElementById("avaToPost")
+//
+// function getAvatar(){
+//     return(imgAva.innerHTML)
+// }
 
 function Post(description){
     this.description = description
     this.time = setDatePost()
     this.name = getName()
+    // this.ava = getAvatar()
 }
 
 
