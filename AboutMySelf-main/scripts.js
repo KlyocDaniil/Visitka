@@ -15,14 +15,17 @@ const createPost = (post,index) => {
  return`
  <div class = "post_item">
      <div class="infoAboutPost">
+     <div class="PostName_Delete">
              <div class="name_people_who_posted"> Даниил Клёц</div>
+             <div class="buttons">
+             </div>
+                      <!--Удаление задачи-->
+                           <button onclick="deletePost(${index})" class="btn-delete"></button>
+            </div>
 <!--             <div class ="datePost"  onclick="dateTime()" </div>-->
      </div>
          <div class="descriptionPost"> ${post.description}  </div>
-            <div class="buttons">
-                      <!--Удаление задачи-->
-                           <button onclick="deletePost(${index})" class="btn-delete"></button>
-            </div>  
+            
  </div>
  `}
     const fillHtmlList = () => {

@@ -258,6 +258,7 @@ text-decoration: none;
     margin-right: 10px;
     display: flex;
     flex-direction: column;
+    width: max-content;
 }
 .FormNews{
     display: flex;
@@ -286,6 +287,11 @@ text-decoration: none;
     justify-content: space-between;
 
 }
+.PostName_Delete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .button_to_add_news{
     height: 50px;
     width: max-content;
@@ -306,7 +312,7 @@ text-decoration: none;
     padding: 10px;
     margin: 15px auto;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: space-between;
     background-color: #e1e3e6;
     /*background-color: cadetblue;*/
