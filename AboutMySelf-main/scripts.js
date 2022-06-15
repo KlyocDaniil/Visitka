@@ -6,10 +6,27 @@ let posts;
 !localStorage.posts ? posts = [] : posts = JSON.parse(localStorage.getItem('posts'))
 
 let newsItemElements = []
-
+ function setDatePost() {
+     let date = new Date()
+     let options = {
+         // era: 'long',
+         year: 'numeric',
+         month: 'long',
+         day: 'numeric',
+         // weekday: 'long',
+         // timezone: 'UTC',
+         hour: 'numeric',
+         minute: 'numeric',
+         second: 'numeric'
+     };
+     return (date.toLocaleDateString("ru", options))
+     // alert(date.toLocaleDateString("ru", options))
+ }
 function Post(description){
     this.description = description
+    this.time = setDatePost()
 }
+
 
 const createPost = (post,index) => {
  return`
@@ -17,6 +34,8 @@ const createPost = (post,index) => {
      <div class="infoAboutPost">
      <div class="PostName_Delete">
              <div class="name_people_who_posted"> Даниил Клёц</div>
+             
+             
              <div class="buttons">
              </div>
                       <!--Удаление задачи-->
@@ -24,6 +43,7 @@ const createPost = (post,index) => {
             </div>
 <!--             <div class ="datePost"  onclick="dateTime()" </div>-->
      </div>
+            <div class = "dateTime"> ${post.time}</div>
          <div class="descriptionPost"> ${post.description}  </div>
             
  </div>
@@ -38,6 +58,7 @@ const createPost = (post,index) => {
             }
     }
     fillHtmlList();
+
 
     function updateLocalStorage() {
         localStorage.setItem('posts', JSON.stringify(posts))
