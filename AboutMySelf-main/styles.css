@@ -245,7 +245,24 @@ text-decoration: none;
     width: 480px;
     height: 100px;
     margin-top: 20px;
+    font-size:24px;
+    resize: none;
+    /*margin-right: 100px;*/
+    margin-right: 20px;
 
+}
+.name_people_who_posted{
+    border: #2b7a78 2px solid;
+    padding: 5px;
+    border-radius: 2px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.FormNews{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .logo_img{
     width: 200px;
@@ -277,6 +294,8 @@ text-decoration: none;
     border: none;
     padding: 10px;
     background-color: gray;
+    /*display: block;*/
+    margin-right: 200px;
 
 }
 .to_vk{
@@ -289,11 +308,14 @@ text-decoration: none;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    background-color: cornflowerblue;
+    background-color: #e1e3e6;
     /*background-color: cadetblue;*/
     font-size: 24px;
     width: 750px;
     height: max-content;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:900;
 }
 /*.post_item.delition{*/
 /*    background-color: darkblue;*/
@@ -310,12 +332,15 @@ text-decoration: none;
 .btn-delete{
     /*width: 10em;*/
     /*height: 2em;*/
-    height: max-content;
-    width: 50px;
-    border-radius: 100px;
-    border: none;
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif ;
-    font-weight: 900;
-    font-size: 30px;
+
+    display: block;
+    width: 30px;
+    height: 30px;
+    --weight: 3px;
+    --aa: 1px; /* anti-aliasing */
+    --color: black;
+    border-radius: 3px;
+    background:
+            linear-gradient(45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa))),
+            linear-gradient(-45deg, transparent calc(50% - var(--weight) - var(--aa)), var(--color) calc(50% - var(--weight)), var(--color) calc(50% + var(--weight)), transparent calc(50% + var(--weight) + var(--aa)));
 }

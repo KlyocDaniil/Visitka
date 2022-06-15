@@ -14,14 +14,14 @@ function Post(description){
 const createPost = (post,index) => {
  return`
  <div class = "post_item">
- 
-         <div class="descriptionPost"> ${post.description}</div>
-     
-     
+     <div class="infoAboutPost">
+             <div class="name_people_who_posted"> Даниил Клёц</div>
+<!--             <div class ="datePost"  onclick="dateTime()" </div>-->
+     </div>
+         <div class="descriptionPost"> ${post.description}  </div>
             <div class="buttons">
-            
                       <!--Удаление задачи-->
-                           <button onclick="deletePost(${index})" class="btn-delete">×</button>
+                           <button onclick="deletePost(${index})" class="btn-delete"></button>
             </div>  
  </div>
  `}
@@ -54,6 +54,9 @@ const deletePost = index =>{
         updateLocalStorage()
         fillHtmlList()
     // },500)
+}
+function dateTime (){
+    document.write(Date())
 }
 document.getElementById("checkNewsForm").onsubmit = function (){
     return false
