@@ -34,15 +34,22 @@
     padding: 5px;
     font-family: 'Fascinate', cursive;
     position: fixed;
-}
-.perechislenyavmenu{
-   /*background: red;*/
-    font-size: 24px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: space-between;
 }
+.linkReg{
+    margin-right: 150px;
+    margin-top: 10px;
+}
+/*.perechislenyavmenu{*/
+/*   !*background: red;*!*/
+/*    font-size: 24px;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-around;*/
+
+/*}*/
 .perechislenyavmenu p{
     margin: 30px auto;
 

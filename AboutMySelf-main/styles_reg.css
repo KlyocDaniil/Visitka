@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Reg_mainWindow{
+    width: 1000px;
+    height: 500px;
+    background-color: #2b7a78;
+    margin: 200px auto;
+    display: flex;
+    border-radius: 30px;
+
+}
+.coloumnInput{
+    display: flex;
+    flex-direction: column;
+    margin:150px 20px;
+    width: 300px;
+    height: max-content;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #3aafa9;
+}
+
