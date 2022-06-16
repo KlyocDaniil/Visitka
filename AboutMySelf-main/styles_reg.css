@@ -18,8 +18,9 @@
     width: 300px;
     height: max-content;
     border-radius: 20px;
-    padding: 50%;
-    margin: 40px 65%;
+    padding: 100px;
+    margin: 74px 250px;
+
     background-color: #3aafa9;
 }
 .reg_button_add_member{
