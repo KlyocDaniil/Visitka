@@ -157,17 +157,21 @@
 .podpiski{
     width: 300px;
     height: max-content ;
-    border: #17252a 3px solid;
+    /*border: #17252a 3px solid;*/
     margin-bottom: 20px;
     border-radius: 10px;
 }
 .Groups{
-    margin-bottom: 5px;
+    /*margin-bottom: 5px;*/
     display: flex;
     flex-direction: column;
     font-size: 24px;
     justify-content: space-around;
     padding: 10px;
+    background-color: #3aafa9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+
 }
 .firstRow{
     display: flex;
@@ -441,22 +445,42 @@ text-decoration: none;
     margin-left: 2px;
 }
 .followed{
-    border: 2px #000000 solid;
+    /*border: 2px #000000 solid;*/
     height: 300px;
     display: flex;
-    flex-direction: row;
-
-
-    background-color: red;
+    flex-direction: column;
+    background-color: #3aafa9;
+    border-radius: 20px;
+    padding: 5px;
+    /*background-color: red;*/
     /*justify-content: space-around;*/
 }
-.photo_public{
-    
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-}
-.name_public{
-    flex-direction: column;
+.to_row{
+    flex-direction: row;
     display: flex;
+}
+.name_public {
+    /*display: flex;*/
+    /*margin: auto;*/
+    /*flex-direction: column;*/
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.name_public a{
+    margin-bottom: 37px;
+
+}
+.photo_public{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.photo_public img{
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 10px;margin-left: 5px;
+
 }
