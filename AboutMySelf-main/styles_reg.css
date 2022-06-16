@@ -14,11 +14,12 @@
 .coloumnInput{
     display: flex;
     flex-direction: column;
-    margin:150px 20px;
+    /*margin:150px 20px;*/
     width: 300px;
     height: max-content;
     border-radius: 20px;
-    padding: 5px;
+    padding: 50%;
+    margin: 40px 65%;
     background-color: #3aafa9;
 }
 
