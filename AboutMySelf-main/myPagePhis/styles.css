@@ -440,3 +440,23 @@ text-decoration: none;
     margin-bottom: 10px;
     margin-left: 2px;
 }
+.followed{
+    border: 2px #000000 solid;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+
+
+    background-color: red;
+    /*justify-content: space-around;*/
+}
+.photo_public{
+    
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+.name_public{
+    flex-direction: column;
+    display: flex;
+}
