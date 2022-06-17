@@ -73,9 +73,9 @@
     margin: 10px 20px;
 }
 .spisokKtoIA{
-    margin: 10px auto;
+    margin: 20px auto;
     border: 10px;
-    background: #def2f1;
+    background: #2b7a78;
     padding: 10px;
     border-radius: 10px;
     width: 700px;
@@ -125,7 +125,7 @@ width: 90%;
     background-color: #2b7a78;
     width: 1000px;
     border-radius: 20px;
-
+    margin-bottom: 20px;
 }
 .check_activity{
     margin: 25px 20px;
@@ -142,7 +142,7 @@ width: 90%;
 .name_people{
     width: max-content;
     height: max-content;
-    margin: 10px 20px;
+    margin: auto 20px;
     font-size: 36px;
     font-style:italic;
     font-family: 'Fascinate', cursive;
@@ -294,6 +294,7 @@ text-decoration: none;
 .status
 {
     margin-left: 20px;
+    margin-bottom: 40px;
 }
 .photos{
     margin-top: 20px;
