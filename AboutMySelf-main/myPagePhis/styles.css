@@ -20,7 +20,7 @@
     height: max-content;
     border-radius: 20px;
     width: 1400px;
-    margin: 70px 400px;
+    margin: 70px 320px;
     padding: 5px;
 
 }
@@ -73,7 +73,7 @@
     margin: 10px 20px;
 }
 .spisokKtoIA{
-    margin: 10px 100px;
+    margin: 10px auto;
     border: 10px;
     background: #def2f1;
     padding: 10px;
@@ -88,20 +88,22 @@
 
 }
 .whatCanIDO{
-    background: #def2f1;
+    background: #2b7a78;
     font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     border-top: 2px black solid;
     border-radius:20px;
+width: 90%;
+    margin-left: 40px;
 }
 .parametrCountFriendsEtc{
     display: flex;
     flex-direction: row;
-    padding: 2px;
+    /*padding: 2px;*/
     height: max-content;
     align-items: center;
     margin-left: 20px;
@@ -111,7 +113,9 @@
 .parametrCountFriendsEtc a{
     margin-right: 10px;
     padding: 10px;
-
+    font-weight: 900;
+    color: #e1e3e6;
+    font-size: 24px;
 }
 .parametrCountFriendsEtc p{
     text-align: center;
@@ -227,7 +231,7 @@
     background-color: #3aafa9;
     display: flex;
     flex-direction: column;
-    margin: 70px 150px;
+    margin: 70px 90px;
     border-radius: 20px;
     position: fixed;
 
@@ -300,6 +304,7 @@ text-decoration: none;
     display: flex;
     flex-direction: row;
     padding: 15px;
+    margin-left: 30px;
 
 }
 .sliderphotoes{
@@ -365,7 +370,7 @@ text-decoration: none;
 .logo_img{
     width: 200px;
     height: 40px;
-    margin-left: 150px;
+    margin-left: 83px;
 
 }
 .photo_left_news{
