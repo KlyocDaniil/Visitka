@@ -359,6 +359,10 @@ text-decoration: none;
     /*border: #17252a 1px solid;*/
     border-radius: 10px;
 }
+.viewNews{
+    background-color: #2b7a78;
+    border-radius: 20px;
+}
 .name_people_who_posted{
     border: #2b7a78 2px solid;
     padding: 5px;
