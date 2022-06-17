@@ -506,3 +506,59 @@ text-decoration: none;
     padding: 5px;
     margin-top: 20px;
 }
+.fav_audios{
+    display: flex;
+    flex-direction: column;
+}
+.Added_audios{
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #3aafa9;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 20px;
+
+}
+.firstAudio{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+
+}
+.firstAudio img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.name_Music{
+    display: flex;
+    flex-direction: column;
+    /*margin-top: 35px;*/
+    /*margin-left: 20px;*/
+    font-family: Montserrat sans-serif;
+    font-size: 20px;
+    color: #17252a;
+    font-weight: 800;
+    /*margin-bottom: 20px;*/
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.Ispolnitel{
+    margin-left: 30px;
+    font-family: Montserrat sans-serif;
+    font-size: 12px;
+    color: #17252a;
+    font-weight: 400;
+}
+.NameMusicAndNameIspolnitel{
+    width: 200px;
+    height: 70px;
+    margin-top: 20px;
+  border-radius: 50px;
+    background-color: #2b7a78;
+    margin-left: 10px;
+    /*text-align: center;*/
+}
