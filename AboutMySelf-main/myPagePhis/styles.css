@@ -298,24 +298,35 @@ text-decoration: none;
     margin-bottom: 40px;
 }
 .photos{
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     border: #17252a 2px solid;
-    border-radius: 15px;
-    width: 900px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
+    /*border-radius: 15px;*/
+    /*width: max-content;*/
+    /*justify-content: space-between;*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*padding: 15px;*/
+    /*margin-left: 30px;*/
+    max-width: 70%;
+    margin: 15px auto;
     padding: 15px;
-    margin-left: 30px;
-
+}
+.slider{
+    width: 123px;
+    height: 123px;
+    border: 2px solid black;
+    margin: 30px auto;
 }
 .sliderphotoes{
     width: 123px;
     height: 123px;
     display: flex;
+    background-color: orange;
     flex-direction: row;
-    margin-right: 20px;
-    margin-left: 200px;
+    position: relative;
+    /*margin: 0 auto;*/
+    /*margin-right: 20px;*/
+    /*margin-left: 200px;*/
 
 }
 .namePhotoes{
