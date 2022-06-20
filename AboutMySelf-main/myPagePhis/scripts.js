@@ -69,7 +69,7 @@ const createPost = (post,index) => {
             <div class = "dateTime"> ${post.time}</div>
          <div class="descriptionPost"> ${post.description}  </div>
          <div class = "LikeAndComment">
-         <button id = "LikePostF" class="Button-Like" > 0
+         <button id = "LikePostF" class="Button-Like" > 
          <svg id ="like-icon" width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5.9 1C3.19386 1 1 3.00868 1 5.4864C1 9.97279 6.79091 14.0513 9.90909 15C13.0273 14.0513 18.8182 9.97279 18.8182 5.4864C18.8182 3.00868 16.6243 1 13.9182 1C12.2611 1 10.7955 1.75331 9.90909 2.90631C9.45726 2.31705 8.857 1.83614 8.15914 1.50431C7.46128 1.17248 6.68636 0.999492 5.9 1Z" stroke="#727272" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>

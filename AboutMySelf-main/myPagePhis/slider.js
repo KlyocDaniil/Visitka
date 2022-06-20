@@ -12,7 +12,7 @@ document.querySelector('.slider-next').addEventListener('click',function (){
 document.querySelector('.slider-previous').addEventListener('click',function (){
     offset = offset -300;
     if (offset < 0 ){
-        offset = 2400
+        offset = 1800
     }
     sliderLine.style.left = -offset + 'px'
 })
