@@ -447,9 +447,17 @@ text-decoration: none;
 .buttons{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     /*border: 1px blanchedalmond solid;*/
 
+}
+.LikeAndComment{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 .btn-delete{
     /*width: 10em;*/
