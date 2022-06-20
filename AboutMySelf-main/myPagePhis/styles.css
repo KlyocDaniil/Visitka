@@ -38,9 +38,87 @@
     flex-direction: row;
     justify-content: space-between;
 }
+/* задаем цвет фона для контейнера nav. */
+.nav {
+    /*margin: 100px 0;*/
+    /*background-color: #E64A19;*/
+    margin-right: 200px;
+    font-size: 22px;
+    background-color: #2b7a78;
+
+}
+
+/* убираем отступы и поля, а также list-style для "ul",
+ * и добавляем "position:relative" */
+.nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    border-radius: 20px;
+}
+
+/* применяем inline-block позиционирование к элементам навигации */
+.spisokVipad{
+    /*margin: 0px -7px 0 0;*/
+    display:inline-block;
+    inline-size: max-content;
+
+    /*padding: 10px;*/
+    /*background-color: #17252a;*/
+}
+
+/* стилизуем ссылки */
+.nav a {
+    display:block;
+    /*padding:0 10px;*/
+
+    font-family: Montserrat sans-serif;
+    color: #17252a;
+    font-size:26px;
+    /*line-height: 60px;*/
+    text-decoration:none;
+    margin: 0 10px;
+}
+/* скрываем выпадающие списки по умолчанию
+			 * и задаем абсолютное позиционирование */
+.nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+/* отображаем выпадающий список при наведении */
+.nav ul li:hover > ul {
+    display:inherit;
+   background-color: #e1e3e6;
+    transition: all ease 0.5s;
+    width: 160px;
+    height: 100px;
+}
+
+/* первый уровень выпадающего списка */
+.nav ul ul li {
+    /*min-width:170px;*/
+    float:none;
+    display:list-item;
+    position: relative;
+}
+
+/* изменяем цвет фона при наведении курсора */
+.nav a:hover {
+    background-color: #2b7a78;
+    border-radius: 7px;
+    width: max-content;
+
+    transition: all  0.5s;
+    /*padding: 2px;*/
+    /*margin-left: 20px;*/
+
+}
 .linkReg{
-    margin-right: 150px;
-    margin-top: 10px;
+    /*margin-right: 150px;*/
+    /*margin-top: 10px;*/
 }
 /*.perechislenyavmenu{*/
 /*   !*background: red;*!*/
