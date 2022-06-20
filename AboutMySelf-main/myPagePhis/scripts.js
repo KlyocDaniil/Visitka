@@ -55,11 +55,8 @@ const createPost = (post,index) => {
              <div class="buttons">
              
                       <!--Удаление задачи-->
-                          <svg width="27" height="6" viewBox="0 0 27 6" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-right: 20px; margin-top: 10px">
-                                    <circle cx="24.5" cy="3" r="2.5" fill="#1D212C"/>
-                                    <circle cx="13.5" cy="3" r="2.5" fill="#1D212C"/>
-                                    <circle cx="2.5" cy="3" r="2.5" fill="#1D212C"/>
-                                </svg>
+                     
+                          
                            <button onclick="deletePost(${index})" class="btn-delete"></button>
                            </div>
             </div>
