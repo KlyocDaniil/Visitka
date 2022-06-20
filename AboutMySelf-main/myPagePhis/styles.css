@@ -456,9 +456,14 @@ text-decoration: none;
     flex-direction: row;
     width: 700px;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 15px;
 }
+.Button-Like{
+    width: 50px;
+    height: 20px;
+}
+
 .btn-delete{
     /*width: 10em;*/
     /*height: 2em;*/
