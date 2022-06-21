@@ -307,21 +307,53 @@ width: 90%;
 .mess{
     width: 200px;
     height: max-content;
-    background-color: #3aafa9;
+    background-color: #2b7a78;
     display: flex;
     flex-direction: column;
     margin: 70px 90px;
-    border-radius: 20px;
+
     position: fixed;
 
 }
+
 .perechislvmess{
     font-size: 24px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin: 10px auto;
+    background-color: #3aafa9;
+    border-radius: 20px;
+    padding: 5px;
+    width: 150px;
 
+}
+.Advertisment{
+ margin-left: 5px;
+    border-radius: 5px;
+}
+.addV{
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: #3aafa9;
+    border-radius: 10px;
+    font-family: Montserrat sans-serif;
+
+    text-align: center;
+}
+.hihihaha{
+    font-size: 46px;
+    margin: 15% 15%;
+    width: max-content;
+    text-align: center;
+
+}
+
+.bodyMema{
+    background-color: indigo;
 }
 .perechislvmess a{
     display: flex;
