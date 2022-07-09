@@ -99,14 +99,14 @@ const createPost = (post,index) => {
         localStorage.setItem('posts', JSON.stringify(posts))
 
     }
-let buttonLike = document.getElementById("LikePostF"), count = 0;
-
-buttonLike.onclick = function (){
-    count+=1
-    buttonLike.innerHTML = "Кликов" + count
-    fillHtmlList();
-
-}
+// let buttonLike = document.getElementById("LikePostF"), count = 0;
+//
+// buttonLike.onclick = function (){
+//     count+=1
+//     buttonLike.innerHTML = "Кликов" + count
+//     fillHtmlList();
+//
+// }
 
     addNews.addEventListener('click',()=>{
         posts.push(new Post(infoAboutNews.value))
