@@ -39,7 +39,7 @@
     flex-direction: row;
     justify-content: space-between;
 }
-/* задаем цвет фона для контейнера nav. */
+/* задаем цветrel фона для контейнера nav. */
 .nav {
     /*margin: 100px 0;*/
     /*background-color: #E64A19;*/
@@ -115,7 +115,6 @@
     transition: all  0.5s;
     /*padding: 2px;*/
     /*margin-left: 20px;*/
-
 }
 .linkReg{
     /*margin-right: 150px;*/
@@ -414,7 +413,7 @@ text-decoration: none;
     color: #06080d;
     font-family: Montserrat sans-serif;
     font-weight: 700;
-    
+
 }
 .red_button{
     /*background-color: red;*/
