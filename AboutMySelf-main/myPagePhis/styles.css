@@ -4,7 +4,7 @@
 }
 .main{
     /*background: url("https://wallbox.ru/resize/1920x1080/wallpapers/main/201618/5eff3ae7909d44d.jpg") no-repeat;*/
-    background-color: #17252a;
+    background-color:#000011 ;
     width: 100%;
     max-width: 1950px;
     margin: 0 auto;
@@ -15,7 +15,7 @@
     overflow-x: hidden;
 }
 .mainInfo{
-    /*background: #3aafa9;*/
+    background: #232c4e;
     display: flex;
     flex-direction: row;
     height: max-content;
@@ -30,7 +30,7 @@
     width: 1920px;
     height: auto;
     margin: auto auto;
-    background: #2b7a78;
+    background: #232c4e;
 
     padding: 5px;
     font-family: 'Fascinate', cursive;
@@ -45,7 +45,7 @@
     /*background-color: #E64A19;*/
     margin-right: 200px;
     font-size: 22px;
-    background-color: #2b7a78;
+    background-color: #232c4e;
 
 }
 
@@ -108,7 +108,7 @@
 
 /* изменяем цвет фона при наведении курсора */
 .nav a:hover {
-    background-color: #2b7a78;
+    background-color: #232c4e;
     border-radius: 7px;
     width: max-content;
 
@@ -153,7 +153,7 @@
 .spisokKtoIA{
     margin: 20px auto;
     border: 10px;
-    background: #2b7a78;
+    background: #565b9a;
     padding: 10px;
     border-radius: 10px;
     width: 700px;
@@ -167,7 +167,7 @@
 
 }
 .whatCanIDO{
-    background: #2b7a78;
+    background: #565b9a;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -201,7 +201,7 @@ width: 90%;
 }
 
 .zagolvki{
-    background-color: #2b7a78;
+    background-color: #565b9a;
     width: 1000px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -230,7 +230,7 @@ width: 90%;
 .photoandName{
     width: max-content;
     height: max-content;
-    background: #2b7a78;
+    background: #565b9a;
     border-radius: 20px;
     margin: 20px 20px;
     align-items: center;
@@ -252,7 +252,7 @@ width: 90%;
     font-size: 24px;
     justify-content: space-around;
     padding: 10px;
-    background-color: #3aafa9;
+    background-color: #9992f0;
     border-radius: 20px;
     margin-bottom: 20px;
 
@@ -307,7 +307,7 @@ width: 90%;
 .mess{
     width: 200px;
     height: max-content;
-    background-color: #2b7a78;
+    background-color: #565b9a;
     display: flex;
     flex-direction: column;
     margin: 70px 90px;
@@ -322,7 +322,7 @@ width: 90%;
     flex-direction: column;
     justify-content: space-around;
     margin: 10px auto;
-    background-color: #3aafa9;
+    background-color: #9992f0;
     border-radius: 20px;
     padding: 5px;
     width: 150px;
@@ -338,7 +338,7 @@ width: 90%;
     display: flex;
     flex-direction: column;
     margin-left: 10px;
-    background-color: #3aafa9;
+    background-color: #9992f0;
     border-radius: 10px;
     font-family: Montserrat sans-serif;
 
@@ -382,7 +382,7 @@ text-decoration: none;
     border-radius: 10px;
 }
 .settingsPage{
-    background-color: #3aafa9;
+    background-color: #9992f0;
     border-radius: 20px;
     /*padding: 5px;*/
     width: 300px;
@@ -405,7 +405,7 @@ text-decoration: none;
     /*width: 320px;*/
     /*padding: 10px;*/
     /*border: none;*/
-    background-color: #3aafa9;
+    background-color: #9992f0;
     /*padding: 20px 50px;*/
     padding: 1em 6em 1em; /*xdxdxd */
     width: max-content;
@@ -451,7 +451,7 @@ text-decoration: none;
     text-align: center;
     position: relative;
     padding: 100px 15px 110px 15px;
-    background-color: #3aafa9;
+    background-color: #565b9a;
     /*display: flex;*/
     /*flex-direction: column;*/
 }
@@ -493,7 +493,7 @@ text-decoration: none;
 }
 .photos{
     /*margin-top: 20px;*/
-    border: #17252a 2px solid;
+    /*border: #17252a 2px solid;*/
     /*border-radius: 15px;*/
     /*width: max-content;*/
     /*justify-content: space-between;*/
@@ -501,7 +501,7 @@ text-decoration: none;
     /*flex-direction: row;*/
     /*padding: 15px;*/
     /*margin-left: 30px;*/
-    background-color: #2b7a78;
+    background-color: #9992f0;
     margin: 15px auto;
     padding: 15px;
     width: 900px;
@@ -510,7 +510,7 @@ text-decoration: none;
 .slider{
     width: 890px;
     height: 300px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     /*margin: 30px auto;*/
     overflow: hidden;
     padding: 1px;
@@ -590,11 +590,11 @@ text-decoration: none;
     border-radius: 10px;
 }
 .viewNews{
-    background-color: #2b7a78;
+    background-color: #9992f0;
     border-radius: 20px;
 }
 .name_people_who_posted{
-    border: #2b7a78 2px solid;
+    border: #232c4e 2px solid;
     padding: 5px;
     border-radius: 10px;
     margin-right: 10px;
@@ -630,7 +630,7 @@ text-decoration: none;
     padding-bottom: 15px;
     justify-content: space-between;
     border-radius: 30px;
-    background-color: #2b7a78;
+    background-color: #9992f0;
     margin: 0 20px;
 }
 .PostName_Delete{
@@ -713,7 +713,7 @@ text-decoration: none;
     font-size: 16px;
     margin-bottom: 10px;
     margin-left: 2px;
-    border: #2b7a78 1px solid;
+    /*border: #2b7a78 1px solid;*/
     width: max-content;
     padding: 2px;
     border-radius: 3px;
@@ -723,7 +723,7 @@ text-decoration: none;
     height: 300px;
     display: flex;
     flex-direction: column;
-    background-color: #3aafa9;
+    background-color: #9992f0;
     border-radius: 20px;
     padding: 5px;
     /*background-color: red;*/
@@ -777,7 +777,7 @@ text-decoration: none;
     height: max-content;
     display: flex;
     flex-direction: column;
-    background-color: #3aafa9;
+    background-color: #9992f0;
     border-radius: 20px;
     padding: 5px;
     margin-top: 20px;
@@ -790,7 +790,7 @@ text-decoration: none;
     height: max-content;
     display: flex;
     flex-direction: column;
-    background-color: #3aafa9;
+    background-color: #9992f0;
     border-radius: 20px;
     padding: 5px;
     margin-top: 20px;
@@ -834,7 +834,7 @@ text-decoration: none;
     height: 70px;
     margin-top: 20px;
   border-radius: 50px;
-    background-color: #2b7a78;
+    background-color: #565b9a;
     margin-left: 10px;
     /*text-align: center;*/
 }
