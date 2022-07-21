@@ -8,6 +8,7 @@ let posts;
 let newsItemElements = []
 
 
+
  function setDatePost() {
      let date = new Date()
      let options = {
@@ -42,7 +43,16 @@ function Post(description){
     this.name = getName()
     // this.ava = getAvatar()
 }
-
+// function checkEmpty(){
+//     if(Post.description === null){
+//     let ask = (question,yes,no) => confirm(question) ? yes() : no()
+//     ask (
+//         "Вы отправляете пустой пост, продолжить?",
+//         () =>{alert('well')},
+//             () =>{}
+//     )
+//         }
+// }
 
 const createPost = (post,index) => {
  return`
@@ -141,3 +151,5 @@ openPopUp.addEventListener('click',function (e){
 closePopUp.addEventListener('click', () =>{
     popUp.classList.remove('active')
 })
+
+

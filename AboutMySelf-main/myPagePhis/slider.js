@@ -3,7 +3,7 @@ const sliderLine= document.querySelector('.sliderphotoes')
 
 
 document.querySelector('.slider-next').addEventListener('click',function (){
-    offset = offset + 300;
+    offset = offset + 320;
     if (offset > 1800){
         offset = 0
     }
